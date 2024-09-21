@@ -1,0 +1,178 @@
+html {
+    background-color: #f0f0f0;
+}
+body {
+    color: white;
+}
+.navigation {
+    text-align: center;
+}
+.navigation a { /* Styles the links in the navigation bar */
+    display: inline-block; /* Aligns the links in a row */
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #61619c;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline from links */
+    color: #edebeb;
+    transition: transform 1.0s ease; /* Adds a smooth transition effect */
+    background: black;
+}
+.navigation a:hover {
+    transform: scale(1.2); /* Increases the size of the link on hover */
+    font-style: italic; /* Italicizes the text on hover */
+    color: #ADD8E6; /* Changes the text color on hover */
+    text-decoration: underline; /* Underlines links on hover */
+}
+.favorite_sport {
+    color: #FFFF00;
+    padding: 10px;
+    border: 1px solid #61619c;
+    border-radius: 5px;
+    text-align: left;
+    overflow: auto;
+    background-image: url('soccerfield.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.favorite_quote {
+    text-align: right;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: black;
+}
+.favorite_poem {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.favorite_authors {
+    background-color: black;
+    font-family: 'UnifrakturCook', 'MedievalSharp', cursive;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.miscellaneous {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.favorite_movie {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+h1 {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+.favorite_foods {
+    text-align: left; /* Left-aligns the entire section */
+    margin: 0px;
+    background-color: black; /* Light gray background color */
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+table {
+    font-size: 1.5em; /* Increases the font size of the table */
+    font-family: Georgia, serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 5px solid rgba(5, 5, 5, 0.91);
+    padding: 20px;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333; /* Dark text color for headers */
+}
+td {
+    text-align: left; /* Default left-align for food names */
+}
+.rating {
+    text-align: center; /* Center-align for ratings */
+}
+.food1 {
+    background-color: #ff782e;
+}
+.food2 {
+    background-color: #00933B;
+}
+.food3 {
+    background-color: #97061f;
+}
+.food4 {
+    background-color: #ff55aa;
+}
+.food5 {
+    background-color: #e2e3e5;
+}
+img {
+    max-width: 50%; /* Ensures the image fits within its container */
+    height: auto;
+    display: block;
+}
+
+.float-left {
+    float: left;
+    margin-right: 20px; /* Optional: Adds space between the images and text */
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px; /* Optional: Adds space between the images and text */
+}
+
+.food_images {
+    display: flex; /* Aligns images in a row */
+    justify-content: space-around; /* Adjusts the spacing between images */
+}
+
+/* Styles the video container */
+.video-container {
+    position: relative; /* Allows the video to be positioned absolutely */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio  */
+    height: 0; /* Hides the video container */
+    overflow: hidden; /* Hides the video overflow */
+    max-width: 100%; /* Ensures the video fits within its container */
+}
+/* Styles the iframe within the video container */
+.video-container iframe {
+    position: absolute; /* Allows the video to be positioned absolutely */
+    top: 0; /* Aligns the video to the top */
+    left: 0; /* Aligns the video to the left */
+    width: 100%; /* Sets the video width to 100% */
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'MyCustomFont'; /* Name of the font */
+    src: url('woff.ttf') format('truetype'); /* Path to the font file */
+}
+
+h1, h2 {
+    font-family: 'MyCustomFont', sans-serif; /* Applies the custom font to headings */
+}
