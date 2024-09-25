@@ -1,0 +1,44 @@
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: Helvetica, serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    position: relative;
+    background-image: url(/resources/headingpattern.jpeg);
+}
+
+h2 {
+    font-family: Helvetica, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.brushes {
+    background-color: mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+
+aside {
+    font-weight: bold;
+    color: blue;
+}
